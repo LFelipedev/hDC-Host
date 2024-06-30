@@ -60,7 +60,7 @@ p {
 }
 
 .navbar-items .defalt-btn:hover {
-    background-attachment: #22bb5f;
+    background-color: #22bb5f;
     color: #fff;
 }
 
@@ -285,6 +285,12 @@ p {
     background-color: #2cc76a;
     color: #fff;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-container input[type="submit"]:hover {
+    background-color: #22bb5f;
+    color: #fff;
 }
 
 footer {
@@ -292,3 +298,6 @@ footer {
     font-weight: bold;
     margin: 20px 0 150px;
 }
+
+/* Responsividade */
+
